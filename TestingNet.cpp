@@ -105,7 +105,7 @@ class Net {
             void delta () { //подсчет коэффициента дельта для каждого нейрона
                 for (int i = 0; i < 10; i++) 
                 {
-                    if (i == number-1) {
+                    if (i == number) {
                         R[i][1] = 1-R[i][1];
                         continue;
                         } 
